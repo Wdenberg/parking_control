@@ -1,0 +1,6 @@
+jwt:
+  access-secret: ${JWT_ACCESS_SECRET}
+  refresh-secret: ${JWT_REFRESH_SECRET}
+  access-expires-minutes: 15
+  refresh-expires-days: 7
+  issuer: parking-control
