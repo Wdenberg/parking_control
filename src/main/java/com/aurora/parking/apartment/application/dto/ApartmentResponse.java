@@ -21,7 +21,7 @@ public record ApartmentResponse(
                 apartment.id(),
                 apartment.block(),
                 apartment.number(),
-                apartment.idetifier(),
+                apartment.identifier(),
                 apartment.active(),
                 apartment.createdAt(),
                 apartment.updatedAt()

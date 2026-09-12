@@ -6,6 +6,7 @@ import com.aurora.parking.execption.UserDisabledException;
 import com.aurora.parking.security.application.JwtTokenPort;
 import com.aurora.parking.security.application.auth.dto.TokenPairResponse;
 import com.aurora.parking.security.application.auth.port.RefreshTokenRepositoryPort;
+import com.aurora.parking.user.application.port.UserRepositoryPort;
 import com.aurora.parking.user.domain.User;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
